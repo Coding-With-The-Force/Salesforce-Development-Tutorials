@@ -1,3 +1,8 @@
+/*
+ * Builds fake ids for unit testing
+ * Created by Caleb Weaver --- Acumen Solutions ---  07/01/2019.
+ */
+
 @isTest
 public with sharing class MockIdBuilder {
 
