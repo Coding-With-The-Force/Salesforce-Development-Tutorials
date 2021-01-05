@@ -1,3 +1,10 @@
+/*
+ * Utility for building mock sobjects
+ * Utilizes json deserialization to allow for building of otherwise unwritable fields
+ * The test class should provide examples of how to use this
+ * Created by Caleb Weaver --- Acumen Solutions ---  07/01/2019.
+ */
+
 public with sharing class MockSObjectBuilder {
 
 	public SObjectType mockType {get; private set;}
